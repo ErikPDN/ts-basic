@@ -4,4 +4,4 @@ const ObjectA = {
 };
 
 ObjectA.keyA = "value A 2"; // OK
-ObjectA.keyB = 0; // NOT OK
+// ObjectA.keyB = 0; // NOT OK
