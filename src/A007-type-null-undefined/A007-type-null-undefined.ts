@@ -18,7 +18,7 @@ export function createPerson(
   };
 }
 
-export function squareOf(x: any) {
+export function squareOf(x: number | null): number | null {
   if (typeof x === "number") {
     return x * x;
   }
